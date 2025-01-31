@@ -45,15 +45,13 @@
   <body class="font-sora">
     <header class="m-auto">
       <!-- Navbar -->
-      <nav class="bg-[#FFF9F4] m-auto mb-16">
+      <nav
+        class="bg-[#FFF9F4] m-auto mb-7 md:mb-16 text-black border border-b border-black md:border-none"
+      >
         <div class="navbar md:max-w-[1100px] m-auto p-3 md:p-0 md:py-5">
           <div class="navbar-start">
             <div class="flex items-center gap-3">
-              <img
-                class=""
-                src="assets/nav-logo.svg"
-                alt=""
-              />
+              <img class="" src="assets/nav-logo.svg" alt="" />
               <p class="text-xl font-normal hidden lg:flex">
                 Browes<span class="text-color-btn">4</span>Pets
               </p>
@@ -83,14 +81,146 @@
             </div>
           </div>
           <div class="navbar-end md:hidden ml-auto">
-            <a><img src="assets/bars.svg"></a>
+            <a><img src="assets/bars.svg" /></a>
           </div>
         </div>
       </nav>
 
       <!-- Banner -->
+      <section
+        class="relative w-full md:max-w-[1100px] m-auto p-3 md:p-0 mb-11 md:mb-28 hidden"
+      >
+        <!-- Text -->
+        <img src="assets/cat-big.png" alt="" class="w-full" />
+        <div class="absolute p-3 top-0 left-0 pt-5 max-w-[550px] space-y-4">
+          <h1 class="font-adam font-normal text-5xl">
+            Pamper Your Pet, Because They Deserve the Best
+          </h1>
+          <p class="text-base font-normal leading-7 opacity-70">
+            Discover a world of treats, toys, and essentials handpicked for your
+            furry friends. Shop now and make tails wag with joy!
+          </p>
+          <button class="bg-color-btn px-6 py-2 rounded-md hover:bg-white">
+            Find a Pet
+          </button>
+        </div>
+      </section>
     </header>
-    <main></main>
+    <main>
+      <!-- Browse By Categories -->
+      <section class="md:max-w-[1100px] m-auto p-3 md:p-0 md:py-5">
+        <h1 class="text-3xl font-normal font-adam mb-9">
+          Browse By Categories
+        </h1>
+        <!-- card container -->
+        <div class="grid grid-cols-2 md:grid-cols-6 gap-5">
+          <!-- card-1 -->
+          <div
+            class="bg-color-primary rounded-lg flex flex-col justify-center items-center gap-5"
+          >
+            <div class="pt-7">
+              <img
+                src="assets/dog1.svg"
+                alt=""
+                class="bg-white rounded-full p-5"
+              />
+            </div>
+
+            <div class="space-y-2 px-14 pb-7 text-center">
+              <h4 class="text-base font-adam font-normal">Dog</h4>
+              <p class="text-xs font-normal">3 items</p>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div
+            class="bg-color-primary rounded-lg flex flex-col justify-center items-center gap-5"
+          >
+            <div class="pt-7">
+              <img
+                src="assets/fish.svg"
+                alt=""
+                class="bg-white rounded-full p-5"
+              />
+            </div>
+
+            <div class="space-y-2 px-14 pb-7 text-center">
+              <h4 class="text-base font-adam font-normal">Fish</h4>
+              <p class="text-xs font-normal">3 items</p>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div
+            class="bg-color-primary rounded-lg flex flex-col justify-center items-center gap-5"
+          >
+            <div class="pt-7">
+              <img
+                src="assets/cat.svg"
+                alt=""
+                class="bg-white rounded-full p-5"
+              />
+            </div>
+
+            <div class="space-y-2 px-14 pb-7 text-center">
+              <h4 class="text-base font-adam font-normal">Cat</h4>
+              <p class="text-xs font-normal">3 items</p>
+            </div>
+          </div>
+          <!-- card-4 -->
+          <div
+            class="bg-color-primary rounded-lg flex flex-col justify-center items-center gap-5"
+          >
+            <div class="pt-7">
+              <img
+                src="assets/bird.svg"
+                alt=""
+                class="bg-white rounded-full p-5"
+              />
+            </div>
+
+            <div class="space-y-2 px-14 pb-7 text-center">
+              <h4 class="text-base font-adam font-normal">Birds</h4>
+              <p class="text-xs font-normal">3 items</p>
+            </div>
+          </div>
+          <!-- card-5 -->
+          <div
+            class="bg-color-primary rounded-lg flex flex-col justify-center items-center gap-5"
+          >
+            <div class="pt-7">
+              <img
+                src="assets/mouse.svg"
+                alt=""
+                class="bg-white rounded-full p-5"
+              />
+            </div>
+
+            <div class="space-y-2 px-14 pb-7 text-center">
+              <h4 class="text-base font-adam font-normal">Dog</h4>
+              <p class="text-xs font-normal">3 items</p>
+            </div>
+          </div>
+          <!-- card-6 -->
+          <div
+            class="bg-color-primary rounded-lg flex flex-col justify-center items-center gap-5"
+          >
+            <div class="pt-7">
+              <img
+                src="assets/rabbit.svg"
+                alt=""
+                class="bg-white rounded-full p-5"
+              />
+            </div>
+
+            <div class="space-y-2 px-14 pb-7 text-center">
+              <h4 class="text-base font-adam font-normal">Rabit</h4>
+              <p class="text-xs font-normal">3 items</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trending Pet Products -->
+    </main>
     <footer></footer>
   </body>
 </html>
