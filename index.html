@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Browse Pets</title>
+    <!-- Icon -->
+    <script
+      src="https://kit.fontawesome.com/3fceb09552.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -38,8 +43,52 @@
     </script>
   </head>
   <body class="font-sora">
-    <header>
-      <nav></nav>
+    <header class="m-auto">
+      <!-- Navbar -->
+      <nav class="bg-[#FFF9F4] m-auto mb-16">
+        <div class="navbar md:max-w-[1100px] m-auto p-3 md:p-0 md:py-5">
+          <div class="navbar-start">
+            <div class="flex items-center gap-3">
+              <img
+                class=""
+                src="assets/nav-logo.svg"
+                alt=""
+              />
+              <p class="text-xl font-normal hidden lg:flex">
+                Browes<span class="text-color-btn">4</span>Pets
+              </p>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-base font-normal">
+              <li><a>Find a Pet</a></li>
+              <li><a>Breeds</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div
+            class="navbar-end space-x-3 text-base font-normal hidden lg:flex"
+          >
+            <a href=""><img src="assets/bell.svg" alt="" /></a>
+            <a href=""><img src="assets/search.svg" alt="" /></a>
+            <div class="space-x-1">
+              <button
+                class="bg-white px-6 py-2 rounded-md border border-color-btn hover:bg-color-btn"
+              >
+                Login
+              </button>
+              <button class="bg-color-btn px-6 py-2 rounded-md hover:bg-white">
+                Register
+              </button>
+            </div>
+          </div>
+          <div class="navbar-end md:hidden ml-auto">
+            <a><img src="assets/bars.svg"></a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Banner -->
     </header>
     <main></main>
     <footer></footer>
